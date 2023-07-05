@@ -17,7 +17,7 @@
             <td>{{ $post->title }}</td>
             <td>{{ $post->content }}</td>
             <td>
-                <a href="/posts/{{ $post->id }}/edit" class="edit-button">Editar</a>
+                <a href="/posts/{{ $post->id }}/edit" class="edit-button">Editar Post</a>
               </td>
               <td>
                 <form action="/posts/{{ $post->id }}" method="POST">
